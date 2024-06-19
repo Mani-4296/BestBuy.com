@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BestBuy Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.SearchAndAddToCartTest">
+        <methods>
+          <include name="testSearchAndAddToCart"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchAndAddToCartTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.FooterLinksTest">
+        <methods>
+          <include name="testFooterLinks"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.FooterLinksTest -->
+      <class name="tests.ShopByBrandTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testShopByBrand"/>
+        </methods>
+      </class> <!-- tests.ShopByBrandTest -->
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testCheckout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.UrlValidationTest">
+        <methods>
+          <include name="testUrlValidation"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.UrlValidationTest -->
+      <class name="tests.ShopByDepartmentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testShopByDepartment"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.ShopByDepartmentTest -->
+      <class name="tests.NavigationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testNavigation"/>
+        </methods>
+      </class> <!-- tests.NavigationTest -->
+    </classes>
+  </test> <!-- Chrome Tests(failed) -->
+  <test thread-count="5" name="Firefox Tests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.SearchAndAddToCartTest">
+        <methods>
+          <include name="testSearchAndAddToCart"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchAndAddToCartTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ShopByBrandTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testShopByBrand"/>
+        </methods>
+      </class> <!-- tests.ShopByBrandTest -->
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testCheckout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.UrlValidationTest">
+        <methods>
+          <include name="testUrlValidation"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.UrlValidationTest -->
+      <class name="tests.ShopByDepartmentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testShopByDepartment"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.ShopByDepartmentTest -->
+    </classes>
+  </test> <!-- Firefox Tests(failed) -->
+  <test thread-count="5" name="Edge Tests(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tests.SearchAndAddToCartTest">
+        <methods>
+          <include name="testSearchAndAddToCart"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.SearchAndAddToCartTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLogin"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.FooterLinksTest">
+        <methods>
+          <include name="testFooterLinks"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.FooterLinksTest -->
+      <class name="tests.ShopByBrandTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testShopByBrand"/>
+        </methods>
+      </class> <!-- tests.ShopByBrandTest -->
+      <class name="tests.CheckoutTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="testCheckout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.UrlValidationTest">
+        <methods>
+          <include name="testUrlValidation"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.UrlValidationTest -->
+      <class name="tests.ShopByDepartmentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testShopByDepartment"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- tests.ShopByDepartmentTest -->
+      <class name="tests.NavigationTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="testNavigation"/>
+        </methods>
+      </class> <!-- tests.NavigationTest -->
+    </classes>
+  </test> <!-- Edge Tests(failed) -->
+</suite> <!-- Failed suite [BestBuy Automation Suite] -->
